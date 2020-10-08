@@ -2,4 +2,8 @@
 
 #mainBody {
     background-image: url(../images/techBanner.jpg);
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
