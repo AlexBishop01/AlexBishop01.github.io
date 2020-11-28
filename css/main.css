@@ -42,6 +42,9 @@ table {
 
 .topnav {
 	overflow: hidden;
+	padding: 10px;
+	background-color: #0B0C10;
+	font-family: 'Roboto', cursive;
 }
 
 /* Style the links inside the navigation bar */
@@ -128,19 +131,53 @@ h1 {
 	font-size: 128pt;
 	font-family: 'Bebas Neue', cursive;
 	text-align: center;
+	padding: 20px;
 }
 
 h2 {
-	color: #45A29E;
+	color: hotpink;
 	font-size: 48pt;
 	font-family: 'Sansita Swashed', cursive;
+	padding: 20px;
+	text-align: center;
 }
 
 h3 {
 	font-family: 'Sansita Swashed', cursive;
 	color: #45A29E;
 	font-size: 64pt;
+	padding: 20px;
 }
+p {
+	font-family: 'Roboto', cursive;
+	padding: 20px;
+	line-height: 2;
+	font-size: 24pt;
+}
+ul {
+	list-style-type: circle;
+	padding: 20px;
+	list-style-position: inside;
+}
+ul li {
+	padding: 20px;
+	font-size: 24pt;
+	line-height: 2;
+}
+ul li em {
+	font-style: italic;
+}
+
+.column {
+	float: left;
+	width: 50%;
+}
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
 
 /*
 COLOR PALETTE:
