@@ -40,7 +40,7 @@ table {
 }
 /*-------------------------------------END CSS RESET-------------------------------------*/
 
-.topNav {
+.topnav {
 	overflow: hidden;
 }
 
@@ -56,10 +56,6 @@ table {
 }
 
 /* Add an active class to highlight the current page */
-.active {
-	background-color: #4CAF50;
-	color: white;
-}
 
 /* Dropdown container - needed to position the dropdown content */
 .dropdown {
@@ -131,6 +127,7 @@ h1 {
     color: #66FCF1;
 	font-size: 128pt;
 	font-family: 'Bebas Neue', cursive;
+	text-align: center;
 }
 
 h2 {
