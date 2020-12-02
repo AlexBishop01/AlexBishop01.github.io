@@ -177,6 +177,21 @@ figcaption {
 em {
 	font-style: italic;
 }
+.footer {
+	position: fixed;
+	text-align: center;
+	background-color: #0B0C10;
+	width: 100vw;
+	bottom: 0;
+	
+}
+.footer p {
+	font-size: 12pt;;
+	font-style: italic;
+}
+.bottomT {
+	padding-bottom: 10vh;
+}
 
 /*
 COLOR PALETTE:
