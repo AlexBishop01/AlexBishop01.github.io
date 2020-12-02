@@ -152,7 +152,7 @@ p {
 	font-family: 'Roboto', cursive;
 	padding: 20px;
 	line-height: 2;
-	font-size: 24pt;
+	font-size: 18pt;
 }
 ul {
 	list-style-type: circle;
@@ -168,16 +168,30 @@ ul li em {
 	font-style: italic;
 }
 
-.column {
-	float: left;
-	width: 50%;
+figcaption {
+	font-family: 'Roboto', cursive;
+	font-size: 12pt;
+	padding: 5px;
+	line-height: 1.5;
 }
-.row:after {
-	content: "";
-	display: table;
-	clear: both;
+em {
+	font-style: italic;
 }
-
+.footer {
+	position: fixed;
+	text-align: center;
+	background-color: #0B0C10;
+	width: 100vw;
+	bottom: 0;
+	
+}
+.footer p {
+	font-size: 12pt;;
+	font-style: italic;
+}
+.bottomT {
+	padding-bottom: 10vh;
+}
 
 /*
 COLOR PALETTE:
