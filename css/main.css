@@ -168,6 +168,12 @@ ul li em {
 	font-style: italic;
 }
 
+figcaption {
+	font-family: 'Roboto', cursive;
+	font-size: 12pt;
+	padding: 5px;
+	line-height: 1.5;
+}
 
 /*
 COLOR PALETTE:
