@@ -152,7 +152,7 @@ p {
 	font-family: 'Roboto', cursive;
 	padding: 20px;
 	line-height: 2;
-	font-size: 24pt;
+	font-size: 18pt;
 }
 ul {
 	list-style-type: circle;
@@ -166,16 +166,6 @@ ul li {
 }
 ul li em {
 	font-style: italic;
-}
-
-.column {
-	float: left;
-	width: 50%;
-}
-.row:after {
-	content: "";
-	display: table;
-	clear: both;
 }
 
 
