@@ -116,7 +116,7 @@ table {
 }
 
 a {
-	text-decoration: none;
+	text-decoration: underline;
 	color: hotpink;
 }
 
@@ -191,6 +191,14 @@ em {
 }
 .bottomT {
 	padding-bottom: 10vh;
+}
+.references {
+	padding: 36px;
+}
+.references li {
+	font-size: 16pt;
+	list-style-type: none;
+	text-indent: -36px;;
 }
 
 /*
